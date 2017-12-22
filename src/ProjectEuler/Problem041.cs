@@ -9,7 +9,7 @@
     /// 
     /// What is the largest n-digit pandigital prime that exists?
     /// </summary>
-    public class Problem041 : IProblemSolver
+    public class Problem041 : IProblemSolver<int>
     {
         /// <inheritdoc />
         public int Number => 41;

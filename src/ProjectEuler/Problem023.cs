@@ -19,7 +19,7 @@ namespace ProjectEuler
     /// 
     /// Find the sum of all the positive integers which cannot be written as the sum of two abundant numbers.
     /// </summary>
-    public class Problem023 : IProblemSolver
+    public class Problem023 : IProblemSolver<int>
     {
         /// <inheritdoc />
         public int Number => 23;

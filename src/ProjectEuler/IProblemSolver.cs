@@ -4,7 +4,8 @@ namespace ProjectEuler
     /// <summary>
     /// Solver for a Euler problem
     /// </summary>
-    public interface IProblemSolver
+    /// <typeparam name="T">Type of the solution</typeparam>
+    public interface IProblemSolver<out T>
     {
         /// <summary>
         /// The problem number
@@ -15,6 +16,6 @@ namespace ProjectEuler
         /// Solve the problem
         /// </summary>
         /// <returns>Solution</returns>
-        int Solve();
+        T Solve();
     }
 }
